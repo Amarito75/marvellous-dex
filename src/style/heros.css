@@ -1,0 +1,159 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans", cursive;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Comic Sans", cursive;
+  padding: 1vmin;
+}
+
+/* Pictures */
+.panel1 {
+  background-color: #fff;
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 450px;
+  width: 300px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+}
+
+.panel2 {
+  background-image: radial-gradient(circle, yellow, orange);
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 450px;
+  width: 315px;
+  margin: 1vmin;
+  overflow: hidden;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Description */
+.panel3 {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 450px;
+  width: 220px;
+  margin: 1vmin;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.panel4 {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 450px;
+  width: 310px;
+  margin: 1vmin;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.panel5 {
+  background-image: radial-gradient(circle, lightblue, deepskyblue);
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  height: 324px;
+  width: 216px;
+  margin: 1vmin;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.text {
+  background-color: #fff;
+  border: solid 2px #000;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+.top-left {
+  left: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(-15deg);
+}
+
+.top-right {
+  right: -6px;
+  position: absolute;
+  top: -2px;
+  transform: skew(-15deg);
+}
+
+/* id */
+.bottom-right {
+  bottom: 2px;
+  position: absolute;
+  left: -6px;
+  transform: skew(-15deg);
+}
+
+.speech {
+  background-color: #fff;
+  border: solid 2px #000;
+  top: 40px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+.speech:before {
+  border: solid 12px transparent;
+  border-left: solid 12px #000;
+  border-top: solid 12px #000;
+  bottom: -24px;
+  content: "";
+  height: 0;
+  right: 24px;
+  position: absolute;
+  transform: skew(-20deg);
+  width: 0;
+}
+
+.speech:after {
+  border: solid 10px transparent;
+  border-left: solid 10px #fff;
+  border-top: solid 10px #fff;
+  bottom: -19px;
+  content: "";
+  height: 0;
+  right: 24px;
+  position: absolute;
+  transform: skew(-20deg);
+  width: 0;
+}
+
+/* background colours */
+
+/* .panel:nth-child(4n + 1) {
+  background-image: radial-gradient(circle, yellow, orange);
+}
+
+.panel:nth-child(4n + 2) {
+  background-image: radial-gradient(circle, lightblue, deepskyblue);
+}
+
+.panel:nth-child(4n + 3) {
+  background-image: radial-gradient(circle, palegreen, yellowgreen);
+}
+
+.panel:nth-child(4n + 4) {
+  background-image: radial-gradient(circle, lightcoral, tomato);
+}  */
