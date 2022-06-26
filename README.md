@@ -2,7 +2,7 @@
 
 ## This project was made with the Marvel API https://developer.marvel.com/
 
-## Launch the serv
+## Launch the project : 
 
 `php -S localhost:1234`
 
