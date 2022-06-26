@@ -4,7 +4,7 @@
 
 ## Launch the serv
 
-`php -S localhosy:1234`
+`php -S localhost:1234`
 
 _Enjoy !_
 
